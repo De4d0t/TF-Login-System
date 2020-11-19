@@ -6,7 +6,7 @@ Public Class Form1
 
     'Dont forget send /start to bot!
 
-    Dim Code As String
+    Dim Code As String = Gen_Random_Code(10)
     Dim Expaire_OFF As Boolean
 
     Dim Bot_Token As String = "Your_Bot_Token" 'Get it from @Botfather in telegram
