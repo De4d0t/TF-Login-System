@@ -9,8 +9,8 @@ Public Class Form1
     Dim Code As String
     Dim Expaire_OFF As Boolean
 
-    Dim Bot_Token As String = "631701631:AAFXl3Y89eFV069jxjgNEBCsGNa60A3sC-w" 'Get it from @Botfather in telegram
-    Dim Telegram_User_ID As String = "123831251" 'Get it from @myidbot in telegram
+    Dim Bot_Token As String = "Your_Bot_Token" 'Get it from @Botfather in telegram
+    Dim Telegram_User_ID As String = "Your_Telegram_ID" 'Get it from @myidbot in telegram
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Code = Gen_Random_Code(5)
         Task.Factory.StartNew(Sub() Send_Code_To_Telegram(Code))
